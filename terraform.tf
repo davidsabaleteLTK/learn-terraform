@@ -3,13 +3,13 @@
 
 terraform {
 
-  # cloud {
-  #   organization = "LoveToKnow"
+  cloud {
+    organization = "LoveToKnow"
 
-  #   workspaces {
-  #     name = "learn-terraform"
-  #   }
-  # }
+    workspaces {
+      name = "learn-terraform"
+    }
+  }
 
   required_providers {
     aws = {
